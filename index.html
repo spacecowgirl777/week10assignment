@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container bg-black">
+            <div class="row justify-content-center">
+                <div class="col-3">
+                <input id="anAlbum" type="text" class="form-control bg-black text-white" placeholder="Album">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-3">
+                <input id="anArtist" type="text" class="form-control bg-black text-white" placeholder="Artist">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-3">
+                <input id="aStatus" type="text" class="form-control bg-black text-white" placeholder="Status">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-3">
+                <button id="aSubmit" class="btn form-control btn-black text-white" placeholder="Submit">Submit</button>
+                </div>
+            </div>
+    
+    <table id="list" class="table table-black table-borderless text-white ">
+        <tr>
+            <th>Album</th>
+            <th>Artist</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Deftones</td>
+            <td>Deftones</td>
+            <td>Maybe</td>
+        </tr>
+        <tr>
+            <td>Wild is the Wind</td>
+            <td>Nina Simone</td>
+            <td>Maybe</td>
+        </tr>
+    </table>
+    <script src="mList.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
